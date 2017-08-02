@@ -12,7 +12,8 @@ public class NameCheck
         Scanner s = new Scanner(System.in);
         System.out.println("Please Enter Your Name");
         String name = s.nextLine();
-        return name;
+        String lower = name.toLowerCase();
+        return lower;
 
         }
         public static String PersonStatus(String PersonName){
