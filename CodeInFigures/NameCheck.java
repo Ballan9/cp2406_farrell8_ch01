@@ -17,7 +17,7 @@ public class NameCheck
 
         }
         public static String PersonStatus(String PersonName){
-            if (PersonName.equals("allan") || PersonName.equals ("jesse") || PersonName.equals("cameron") || PersonName.equals("colton")) {
+            if (PersonName.equals("allan") || PersonName.equals ("jesse") || PersonName.equals("cameron") || PersonName.equals("colton") || PersonName.equals ("sanio") || PersonName.equals("daniel")) {
                 String PersonThing = "You da sexy";
                 return PersonThing;
             }
