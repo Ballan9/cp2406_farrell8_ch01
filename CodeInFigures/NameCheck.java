@@ -12,6 +12,7 @@ public class NameCheck
              */
             String SexyorNot = PersonStatus (PersonName);
             JOptionPane.showMessageDialog(null, SexyorNot);
+            JOptionPane.showConfirmDialog(null, "Do you agree");
 
         }
         public static String getName(){

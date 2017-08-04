@@ -1,3 +1,7 @@
+import jdk.nashorn.internal.scripts.JO;
+
+import javax.swing.*;
+
 public class MovieQuote
 {
     public static void main(String[] args) {
@@ -7,6 +11,6 @@ public class MovieQuote
 
     public static void quote() {
 
-        System.out.println("I don't know what to do with my hands");
+        JOptionPane.showMessageDialog(null,"I don't know what to do with my hands");
     }
 }

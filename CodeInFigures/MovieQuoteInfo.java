@@ -1,11 +1,16 @@
+import javax.swing.*;
+
 public class MovieQuoteInfo
     {
         public static void main(String[] args) {
-           MovieInfo ();
            MovieQuote.quote();
+           MovieInfo ();
+           JOptionPane.showConfirmDialog(null  ,"Do you like this movie");
+
 
         }
         public static void MovieInfo(){
-            System.out.println("Talledega Nights");
+            JOptionPane.showMessageDialog(null , "Talledega Nights");
+
         }
 }
